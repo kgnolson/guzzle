@@ -1,0 +1,68 @@
+@font-face {
+	font-family: 'ideal-book';
+    src: url('fonts/ideal-book.eot') format('embedded-opentype'),
+         url('fonts/ideal-book.woff') format('woff'),
+         url('fonts/ideal-book.ttf') format('truetype'),
+         url('fonts/ideal-book.svg') format('svg');
+}
+@font-face {
+	font-family: 'ideal-book-italic';
+    src: url('fonts/ideal-book-italic.eot') format('embedded-opentype'),
+         url('fonts/ideal-book-italic.woff') format('woff'),
+         url('fonts/ideal-book-italic.ttf') format('truetype'),
+         url('fonts/ideal-book-italic.svg') format('svg');
+}
+@font-face {
+	font-family: 'ideal-bold';
+    src: url('fonts/ideal-bold.eot') format('embedded-opentype'),
+         url('fonts/ideal-bold.woff') format('woff'),
+         url('fonts/ideal-bold.ttf') format('truetype'),
+         url('fonts/ideal-bold.svg') format('svg');
+}
+@font-face {
+	font-family: 'ideal-light';
+    src: url('fonts/ideal-light.eot') format('embedded-opentype'),
+         url('fonts/ideal-light.woff') format('woff'),
+         url('fonts/ideal-light.ttf') format('truetype'),
+         url('fonts/ideal-light.svg') format('svg');
+}
+@font-face {
+	font-family: 'ideal-light-italic';
+    src: url('fonts/ideal-light-italic.eot') format('embedded-opentype'),
+         url('fonts/ideal-light-italic.woff') format('woff'),
+         url('fonts/ideal-light-italic.ttf') format('truetype'),
+         url('fonts/ideal-light-italic.svg') format('svg');
+}
+@font-face {
+	font-family: 'pluto';
+    src: url('fonts/pluto.eot') format('embedded-opentype'),
+         url('fonts/pluto.woff') format('woff'),
+         url('fonts/pluto.ttf') format('truetype'),
+         url('fonts/pluto.svg') format('svg');
+}
+@font-face {
+	font-family: 'pluto-bold';
+    src: url('fonts/pluto-bold.eot') format('embedded-opentype'),
+         url('fonts/pluto-bold.woff') format('woff'),
+         url('fonts/pluto-bold.ttf') format('truetype'),
+         url('fonts/pluto-bold.svg') format('svg');
+}
+@font-face {
+	font-family: 'pluto-light';
+    src: url('fonts/pluto-light.eot') format('embedded-opentype'),
+         url('fonts/pluto-light.woff') format('woff'),
+         url('fonts/pluto-light.ttf') format('truetype'),
+         url('fonts/pluto-light.svg') format('svg');
+}
+@font-face {
+	font-family: 'pluto-medium';
+    src: url('fonts/pluto-medium.eot') format('embedded-opentype'),
+         url('fonts/pluto-medium.woff') format('woff'),
+         url('fonts/pluto-medium.ttf') format('truetype'),
+         url('fonts/pluto-medium.svg') format('svg');
+}
+
+body {
+    font-family: "ideal-light";
+    font-size: 16px;
+}
