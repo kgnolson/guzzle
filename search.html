@@ -3,67 +3,92 @@
 	<head>
 	<meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 	<title>GUZZLE</title>
 	</head>
 	<body>
         <div class="container">
             <header>
-                <img src="img/header.png" alt="GUZZLE">
-                <p class="slogan">plenty of pleasing punches & palatable potables</p>
-            </header>
-            <ul class="nav nav-justified">
-                <li><a href="soft.html">soft drinks</a></li>
-                <li><a href="hard.html">hard drinks</a></li>
-                <li><a href="reviews.html">reviews</a></li>
-                <li>search</li>
-            </ul>
+                <div class="navbar-header">
+                    <!-- hamburger button -->
+                    <button class="navbar-toggle collapsed" data-target="#navbar-collapse-1" data-toggle="collapse" type="button">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <!-- search button -->
+                    <button class="navbar-toggle2 collapsed" data-target="#search-collapse-1" data-toggle="collapse" type="button">
+                        <span class="sr-only">Toggle search</span>
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                    <!-- logo & slogan -->
+                    <a class="navbar-brand" href="index.html">
+                        <img class="img-responsive header" src="img/header.png" alt="GUZZLE">
+                    </a>
+                        <p class="slogan hidden-xs hidden-sm">plenty of pleasing punches & palatable potables</p>
+                </div>
+                <!-- menu -->
+                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                    <ul class="nav navbar-nav nav-justified">
+                        <li><a href="recipes.html">soft drinks</a></li>
+                        <li><a href="recipes.html">hard drinks</a></li>
+                        <li><a href="recipes.html">reviews</a></li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse" id="search-collapse-1">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="search . . .">
+                        <button type="submit" class="btn btn-default">GO</button>
+                    </div>
+                  </form>
+                </div>
+            </header>     
+                
+            <div class="col-xs-12">
+                <ol class="gallery"> <!-- start of list -->
             <div class="col-xs-12">
                 <p class="breadcrumbs">search</p>
                 <p class="headline">tea recipe</p>
             </div>
             <div class="col-xs-12">
                 <ol class="gallery"> <!-- start of list -->
-                    <li>
-                        <img src="img/bubbletea.png" alt="best bubble tea">
+                    <li class="col-xs-12 col-md-6">
+                        <img src="img/bubbletea-thumb.png" alt="best bubble tea">
                         <h3>best bubble tea</h3>
-                        <span class="rating">****</span>
+                        <span class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
                     </li>
-                    <li>
+                    <li class="col-xs-12 col-md-6">
                         <img src="img/greentea.png" alt="green tea margarita">
                         <h3>green tea margarita</h3>
-                        <span class="rating">****</span>
+                        <span class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
                     </li>
-                    <li>
+                    <li class="col-xs-12 col-md-6">
                         <img src="img/gingertea.png" alt="gingertea">
                         <h3>ginger tea</h3>
-                        <span class="rating">***</span>
+                        <span class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
                     </li>
-                    <li>
+                    <li class="col-xs-12 col-md-6">
                         <img src="img/icedtea.png" alt="thai-style iced tea">
                         <h3>thai-style iced tea</h3>
-                        <span class="rating">**</span>
+                        <span class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
                     </li>
                 </ol> <!-- end of list -->
             </div>
-            <div class="col-xs-12">
-                <p class="older">older stories</p>
-                <span class=" glyphicon glyphicon-triangle-bottom"></span>
-            </div>
-            <footer>
+
+            <footer class="col-xs-12">
                 <ul class="nav nav-justified socialmedia">
-                    <li><a href="http://www.facebook.com">facebook</a></li>
-                    <li><a href="http://www.twitter.com">twitter</a></li>
-                    <li><a href="http://www.instagram.com">insta</a></li>
-                    <li><a href="http://www.pinterest.com">pinterest</a></li>
-                    <li><a href="http://www.tumblr.com">tumblr</a></li>
+                    <li><a href="http://www.facebook.com">b</a></li>
+                    <li><a href="http://www.twitter.com">a</a></li>
+                    <li><a href="http://www.instagram.com">x</a></li>
+                    <li><a href="http://www.pinterest.com">d</a></li>
+                    <li><a href="http://www.tumblr.com">z</a></li>
                 </ul>
                 <p>(c) Guzzle 2015. All rights reserved.</p>
             </footer>
         </div> <!-- closes container -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 	</body>
 </html>
